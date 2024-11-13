@@ -1,0 +1,70 @@
+/* 기본적인 스타일 리셋: 모든 요소의 기본 여백과 패딩을 제거하고, box-sizing을 border-box로 설정합니다. 
+   box-sizing: border-box는 요소의 크기를 계산할 때 패딩과 테두리를 포함하도록 합니다. */
+   * {
+    margin: 0; /* 요소의 기본 여백 제거 */
+    padding: 0; /* 요소의 기본 패딩 제거 */
+    box-sizing: border-box; /* 크기 계산에 패딩과 테두리를 포함 */
+}
+
+/* 전체 배경색 및 폰트 설정 */
+body {
+    font-family: Arial, sans-serif; /* 문서의 기본 폰트 설정 */
+    background-color: #f4f4f4; /* 페이지의 전체 배경색 설정 (밝은 회색) */
+    color: #333; /* 텍스트 색상 설정 (진한 회색) */
+}
+
+/* 헤더 스타일: 웹페이지 상단의 헤더 영역 디자인 */
+header {
+    background-color: #4CAF50; /* 헤더의 배경색 (초록색) */
+    color: white; /* 헤더 안의 텍스트 색상 (흰색) */
+    padding: 20px; /* 헤더 안의 여백 (위, 아래 20px) */
+    text-align: center; /* 헤더 안의 텍스트를 가운데 정렬 */
+}
+
+/* 내비게이션 바 스타일 */
+nav ul {
+    list-style-type: none; /* 목록의 기본 불릿 제거 */
+    padding: 0; /* 목록의 기본 패딩 제거 */
+}
+
+/* 내비게이션 바의 각 항목 스타일 */
+nav ul li {
+    display: inline; /* 목록 항목을 가로로 배치 */
+    margin-right: 10px; /* 항목 사이에 10px의 오른쪽 여백 추가 */
+}
+
+/* 내비게이션 링크 스타일 */
+nav ul li a {
+    color: white; /* 링크 텍스트 색상 (흰색) */
+    text-decoration: none; /* 링크의 기본 밑줄 제거 */
+}
+
+/* 본문 스타일: 페이지의 주요 내용 영역 디자인 */
+main {
+    padding: 20px; /* 본문 영역 안의 여백 (위, 아래 20px) */
+    text-align: center; /* 본문 안의 텍스트를 가운데 정렬 */
+}
+
+/* 버튼 스타일 */
+button {
+    padding: 10px 20px; /* 버튼 안의 여백 (세로 10px, 가로 20px) */
+    background-color: #007BFF; /* 버튼의 배경색 (파란색) */
+    color: white; /* 버튼 텍스트 색상 (흰색) */
+    border: none; /* 버튼 테두리 제거 */
+    border-radius: 5px; /* 버튼의 모서리를 둥글게 (5px) */
+    cursor: pointer; /* 마우스를 올렸을 때 포인터 모양으로 변경 */
+}
+
+/* 버튼에 마우스를 올렸을 때의 스타일 */
+button:hover {
+    background-color: #0056b3; /* 버튼의 배경색이 더 진한 파란색으로 변경 */
+}
+
+/* 푸터 스타일: 웹페이지 하단의 푸터 영역 디자인 */
+footer {
+    background-color: #333; /* 푸터의 배경색 (진한 회색) */
+    color: white; /* 푸터 안의 텍스트 색상 (흰색) */
+    padding: 10px; /* 푸터 안의 여백 (위, 아래 10px) */
+    text-align: center; /* 푸터 안의 텍스트를 가운데 정렬 */
+    margin-top: 20px; /* 푸터 위에 20px의 여백 추가 */
+}

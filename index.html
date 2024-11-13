@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- 이 문서는 HTML5 문서임을 선언하는 태그입니다. -->
+<html lang="ko"> <!-- 문서의 언어를 한국어로 설정합니다. -->
+<head>
+    <meta charset="UTF-8"> <!-- 문자 인코딩 방식을 UTF-8로 설정하여 다양한 문자 지원 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 반응형 디자인을 위해 viewport 설정 -->
+    <title>나의 첫 웹페이지</title> <!-- 브라우저 탭에 표시될 제목 설정 -->
+    <link rel="stylesheet" href="styles.css"> <!-- 외부 CSS 파일 연결 (스타일 설정을 위한 파일) -->
+</head>
+<body> <!-- 페이지의 본문 부분 시작 -->
+
+    <!-- 헤더 (웹페이지의 상단 영역) -->
+    <header>
+        <h1>나의 첫 홈페이지</h1> <!-- 페이지의 주요 제목, 보통 사이트의 이름 또는 타이틀 -->
+        
+        <!-- 내비게이션 바 (사이트 내에서 다른 페이지로 이동할 수 있는 메뉴) -->
+        <nav>
+            <ul> <!-- 메뉴 항목을 순서대로 나열하기 위한 리스트 -->
+                <li><a href="#">홈</a></li> <!-- '홈' 메뉴 항목, 링크가 없으므로 #로 처리 -->
+                <li><a href="about.html">소개</a></li> <!-- '소개' 메뉴 항목 -->
+                <li><a href="#">연락처</a></li> <!-- '연락처' 메뉴 항목 -->
+            </ul>
+        </nav>
+    </header> <!-- 헤더 끝 -->
+
+    <!-- 메인 콘텐츠 영역 -->
+    <main>
+        <!-- 첫 번째 섹션 (주요 콘텐츠) -->
+        <section>
+            <h2>환영합니다!</h2> <!-- 섹션의 제목 -->
+            <p>여기는 내가 만든 첫 웹페이지입니다.</p> <!-- 섹션 내용, 간단한 텍스트로 설명 -->
+        </section>
+
+        <!-- 두 번째 섹션 (버튼을 추가하여 상호작용 제공) -->
+        <section>
+            <button id="clickButton">클릭하세요!</button> <!-- 버튼을 클릭할 때 실행될 JavaScript 이벤트가 있는 버튼 -->
+        </section>
+    </main> <!-- 메인 콘텐츠 끝 -->
+
+    <!-- 푸터 (웹페이지의 하단 영역) -->
+    <footer>
+        <p>&copy; 2024 나의 홈페이지. All rights reserved.</p> <!-- 저작권 표시 -->
+    </footer>
+
+    <!-- 외부 JavaScript 파일 연결 (사용자가 상호작용할 수 있도록 기능을 추가) -->
+    <script src="script.js"></script>
+</body> <!-- 본문 끝 -->
+</html>
